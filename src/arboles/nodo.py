@@ -1,9 +1,8 @@
 class Nodo:
-    def __init__(self,valor):
+    def __init__(self, valor):
         self._valor = valor
-        self._izquierda= None
-        self._derecho= None
-
+        self._izquierda = None
+        self._derecho = None
 
     def get_valor(self):
         return self._valor
@@ -14,13 +13,13 @@ class Nodo:
     def get_derecho(self):
         return self._derecho
 
-    def set_valor(self,valor):
+    def set_valor(self, valor):
         self._valor = valor
 
-    def set_izquierdo(self,valor):
+    def set_izquierdo(self, valor):
         self._izquierda = valor
 
-    def set_derecho(self,valor):
+    def set_derecho(self, valor):
         self._derecho = valor
 
     def __repr__(self):
